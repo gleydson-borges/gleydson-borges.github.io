@@ -3,6 +3,7 @@
  */
 $(function(){
     $('#KCarousel').carousel({
+        interval: 7000 //changes the speed
    });
 
     $("#typed").typed({
