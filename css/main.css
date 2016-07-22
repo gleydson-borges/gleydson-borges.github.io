@@ -112,3 +112,23 @@ body,
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
 }
+.social-media{
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    right: 30px;
+}
+.social-media img{
+    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+}
+.social-media img:hover{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+    transform:scale(1.15);
+}
