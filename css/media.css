@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .typed-content .logo {
+        width: 68%;
+        padding-top: 19%;
+        padding-bottom: 42px;
+    }
+    .typed-content .type-wrap {
+        padding: 6px;
+        width: 280px;
+        margin: 0 auto;
+    }
+}
