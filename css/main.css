@@ -4,6 +4,9 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 
+body{
+    background-color:#000 ;
+}
 .carousel-fade .carousel-inner .item {
     opacity: 0;
     transition-property: opacity;

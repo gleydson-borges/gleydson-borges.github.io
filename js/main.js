@@ -14,7 +14,7 @@ $(function(){
         loop: true,
         contentType: 'html', // or text
         // defaults to false for infinite loop
-        loopCount: 2,
+        loopCount: 3,
         callback: function(){ foo(); },
         resetCallback: function() { newTyped(); }
     });
