@@ -3,10 +3,30 @@
         width: 68%;
         padding-top: 19%;
         padding-bottom: 42px;
+        margin-top: 150px;
     }
     .typed-content .type-wrap {
         padding: 6px;
         width: 280px;
         margin: 0 auto;
     }
+    #typed,.typed-cursor{
+        font-size: 30px;
+    }
 }
+@media screen and (max-width: 600px) {
+   .social-media{
+       z-index: 3;
+       height: 100px;
+       position: absolute;
+       left: 43%;
+       margin-top: 44px;
+       margin-left: -50px;
+   }
+}
+
+
+
+
+
+

@@ -66,40 +66,37 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
-
 .typed-cursor{
     opacity: 1;
-    font-weight: 100;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-    }
-    @-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-webkit-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-moz-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-ms-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-o-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
+    font-size: 50px;
+    color: #fff;
+}
+#typed{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    white-space:inherit !important;
+}
+.type-wrap{
+    margin-bottom: 200px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 .typed-content{
     position: absolute;
