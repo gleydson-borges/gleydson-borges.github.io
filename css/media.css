@@ -1,9 +1,9 @@
 @media screen and (max-width: 768px) {
     .typed-content .logo {
-        width: 68%;
+        width: 40%;
         padding-top: 19%;
         padding-bottom: 42px;
-        margin-top: 150px;
+        margin-top: 30px;
     }
     .typed-content .type-wrap {
         padding: 6px;
@@ -11,7 +11,10 @@
         margin: 0 auto;
     }
     #typed,.typed-cursor{
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .social-media img{
+        width: 50px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -19,8 +22,7 @@
        z-index: 3;
        height: 100px;
        position: absolute;
-       left: 43%;
-       margin-top: 44px;
+       left: 50%;
        margin-left: -50px;
    }
 }
